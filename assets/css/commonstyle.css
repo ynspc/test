@@ -1,0 +1,250 @@
+/*this is the reset code area*/
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Museo';
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 16px;
+}
+
+h6{
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+}
+
+.hori,
+.verti{
+    box-sizing: border-box;
+}
+
+.verti{
+    position: relative;
+    float: left;
+}
+
+.hori:before,
+.hori:after{
+    content: " ";
+    display: block;
+}
+
+.hori:after{
+    clear: both;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.txtcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*this is the scenario for the 12 column grid system*/
+
+.verti-1{ width: 8.33%; }
+.verti-2{ width: 14.89%; margin-right: 10px; }
+.verti-3{ width: 23%; margin: 0 1%;}
+.verti-4{ width: 30.32%; margin: 0 10px;}
+.verti-5{ width: 41.65%; }
+.verti-6{ width: 49.98%; }
+.verti-7{ width: 58.31%; }
+.verti-8{ width: 66.64%; }
+.verti-9{ width: 74.97%; }
+.verti-10{ width: 82.75%; margin-left: 10px; }
+.verti-11{ width: 91.63%; }
+.verti-12{ width: 100%; }
+
+/*inspired form bootstrap*/
+
+ .img-thumb-border{
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+   -moz-box-sizing: border-box;
+   -o-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+ }
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          /*user-select: none;*/
+
+  margin-top: 20px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #9a9c9f;
+  /*border-color: #357ebd;*/
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /*max-width: 910px;
+  margin: 0 auto;*/
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after{
+   clear: both;
+}
+
+.header {
+  position: relative;
+  z-index: 1000;
+  min-height: 50px;
+  border: 1px solid transparent;
+}
+
+.header:before,
+.header:after {
+  display: table;
+  content: " ";
+}
+
+.header:after {
+  clear: both;
+}
+
+/*all the links*/
+
+a{
+  text-decoration: none;
+  color: #fb2f3a;
+}
+
+a:focus,
+a:hover{
+  color: #eb2f39;
+}
+
+/*this is the user defined font declaration area*/
+@font-face {
+      font-family: "lobster2R";
+      src: url(../fonts/lobster2R.ttf) format('truetype');
+}
+@font-face {
+      font-family: "solena";
+      src: url(../fonts/solena.otf) format('truetype');
+}
+@font-face {
+      font-family: "ralewayR";
+      src: url(../fonts/ralewayR.ttf) format('truetype');
+}
+
+@font-face {
+      font-family: "helvetica";
+      src: url(../fonts/helvetica.otf) format('truetype');
+}
+@font-face {
+      font-family: "cinnabar";
+      src: url(../fonts/cinnabar.ttf) format('truetype');
+}
+
+@font-face {
+      font-family: "museo5";
+      src: url(../fonts/museo5.otf) format('truetype');
+}
+
+@font-face {
+      font-family: "robotoR";
+      src: url(../fonts/robotoR.ttf) format('truetype');
+}
+
+@font-face {
+      font-family: "robotoT";
+      src: url(../fonts/robotoT.ttf) format('truetype');
+}
+
+/*images*/
+img{
+  display: block;
+  width: 100%;
+  background-size: cover;
+}
+
+/*clearfix needed*/
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.mytable{
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+

@@ -1,0 +1,68 @@
+@media only screen and (min-width: 1824px){
+	.wrapper{
+		width: 100%;
+		height: auto;
+	}
+
+	.container {
+	  max-width: 100%;
+	}
+
+	body,
+	.footer-logo,
+	footer small,
+	.header-parts > h5,
+	.testimonials blockquote p,
+	.blog-lists h5 a,
+	ul > li > a{
+		font-size: 30px;
+	}
+
+	a.logo{ font-size: 68px; }
+	.inner-nav ul > li{margin-left: 70px;}
+	.inner-nav > nav > ul > li > a{ font-size: 16px;}
+	/*this one why not bbeing able to increase the default font size 16 to above*/
+	.header-parts > h2{font-size: 76px;}
+	.cta > .cta{font-size: 48px;} /* for all the buttons in this section*/
+	.cta > .withunderline{font-size: 48px;}
+
+	.process-icon{width:210px; height: 210px; background-size: cover;}
+
+	.idesign{	background-position: -210px top;}
+
+	.idevelop{	background-position: -420px top;}
+
+	.ilaunch{	background-position: -630px top;}
+
+	.h-line{ height: 10px; position: relative; top: 105px;}
+
+	h3{font-size: 50px;}
+	h4{font-size: 40px;}
+	
+	.btn{font-size: 36px;}
+	
+	.portfolio p{ font-size: 30px; height: 210px; }
+
+	h6.title{font-size: 32px;}
+	.category{font-size: 25px;}
+
+	.footer-links li{margin-left: 100px;}
+
+	.social-sprite{width: 36px; height: 30px; background-size: cover;}
+	.facebook{background-position: -36px top;}
+
+	.social .twitter:hover .social-sprite{
+		width: 30px;
+		height: 30px;
+		background: url(../../images/sprite-social-icons.png) no-repeat;
+		background-position: left top;
+		background-size: cover;
+	}
+	.social .facebook:hover .social-sprite{
+		width: 30px;
+		height: 30px;
+		background: url(../../images/sprite-social-icons.png) no-repeat;
+		background-position: -30px top;
+		background-size: cover;
+	}
+}

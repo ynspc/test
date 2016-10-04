@@ -1,0 +1,161 @@
+.other-posts{
+	margin:20px 0;
+}
+
+.other-posts .title{
+	font-size: 24px;
+	color: #060606;
+	font-family: 'robotoR';
+}
+
+.other-posts ul.more-post-list{margin-top: 30px;}
+
+.other-posts ul.more-post-list > li{
+	list-style-type: none;
+	margin-bottom: 20px;
+	height: 100px;
+}
+
+.other-posts ul.more-post-list > li:last-child{
+	margin-bottom: 0px;
+}
+
+/*.more-post-list > li:nth-child(odd){
+	position: relative;
+}
+
+.more-post-list > li:nth-child(even){
+	position: relative;
+}
+*/
+/*.more-post-list > li:nth-child(odd) > img{*/
+.other-posts .more-post-list:nth-child(odd) > img{
+	width: 140px;
+	height: 100px;
+	float: left;
+	/*margin-right: 20px;*/
+}
+
+.more-post-list > li:nth-child(even) > img{
+	width: 140px;
+	height: 100px;
+	float: right;
+	/*margin-left: 20px;*/
+	margin-right: 0;
+}
+
+.more-post-list > li:nth-child(odd) > p > span.full{
+	font-size: 10px;
+	font-family: 'helvetica';
+	color: #fb3f2a;
+	display: block;
+	margin-top: 15px;
+}
+
+.more-post-list > li:nth-child(even) > p > span.full{
+	font-size: 10px;
+	font-family: 'helvetica';
+	color: #fb3f2a;
+	display: block;
+	margin-top: 15px;
+	position: relative;
+	right: 0;
+	
+}
+
+.more-post-list > li:nth-child(odd) > p > small.date-time{
+	font-size: 12px;
+	font-family: 'helvetica';
+	color: #161616;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+	width: 100%;
+}
+
+
+
+.more-post-list > li > img{
+	width: 140px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.more-post-list > li > p{
+	font-size: 16px;
+	font-family: 'helvetica';
+	color: #161616;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+/*.more-post-list > li > p.full{
+	font-size: 10px;
+	font-family: 'helvetica';
+	color: #fb3f2a;
+}*/
+
+.more-post-list > li > small{
+	font-size: 12px;
+	font-family: 'helvetica';
+	color: #161616;
+	display: inline-block;
+	text-align: right;
+	width: 100%;
+}
+
+.more-post-list > li > small > span.posted-by{
+	color: #fb3f2a;
+}
+
+.parent > .child:nth-child(odd) > img{
+    float: right;
+    width: 140px;
+    height: 100px;
+}
+
+/*
+.parent > .child:nth-child(odd) > p{
+    display: inline-block;
+    
+    width: 200px;
+    height: 100px;
+}
+*/
+.parent > .child{
+    padding-bottom: 60px;
+}
+
+.parent > .child:nth-child(odd) > img{
+    float: left;
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.parent > .child:nth-child(even) > img{
+    float: right;
+    width: 140px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.parent:after,
+.parent:before{
+    content: " ";
+    display: table;
+}
+
+.parent:after{
+    clear: both;
+}
+/*
+.parent > .child:nth-child(even) > p{
+    display: inline-block;
+    
+    width: 200px;
+    height: 100px;
+}
+*/

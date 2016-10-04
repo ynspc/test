@@ -1,0 +1,79 @@
+.all-posts .list-posts:nth-child(odd){
+}
+
+.all-posts .list-posts:nth-child(even){
+}
+
+p.main-title{
+    font-family: 'museo';
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.all-posts .list-posts{
+    margin-bottom: 20px;
+}
+
+.list-posts .post-title{
+    font-family: 'museo';
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.all-posts .list-posts .info {
+}
+
+.all-posts .list-posts:nth-child(odd) .image {
+    float: right;
+/*
+    width: 140px;
+    height: 100px;
+*/
+/*    margin-right: 20px;*/
+}
+
+.all-posts .list-posts:nth-child(even) .image{
+/*    float: left;*/
+    display: inline-block;
+/*
+    width: 140px;
+    height: 100px;
+*/
+/*    margin-left: 20px;*/
+}
+
+.all-posts .list-posts:nth-child(odd) .info > .read {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+   color: red;
+}
+
+.all-posts .list-posts:nth-child(even) .read{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    color: red;
+}
+
+.all-posts .list-posts:nth-child(odd) .info > .post-by {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.all-posts .list-posts:nth-child(even) .post-by{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+
+/*managing*/
+
+
+.verti-10{
+    margin: 0;
+}
